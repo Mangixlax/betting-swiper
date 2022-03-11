@@ -1,16 +1,29 @@
-.container {
-  height: 0;
-  padding-bottom: 56.25%;
-  position: relative;
+@import url("./modal.css");
+@import url("./reset.css");
+
+.main {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #212226;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.main-link {
+  text-decoration: none;
+  font-family: Gilroy;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  color: #ffffff;
 }
 
 .swiper {
-	width: 50%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+	width: 179px;
+  height: auto;
 }
 
 .swiper-slide {
@@ -19,14 +32,28 @@
 }
 
 .swiper-controls {
+  max-width: 250px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
   margin-top: 40px;
-  position: relative
+}
+
+.swiper__button-prev {
+  padding: 6px;
+}
+
+.swiper__button-next {
+  padding: 6px;
 }
 
 .swiper-scrollbar {
   height: 2px;
-  width: 100%;
+  width: 100% !important;
+  margin: 0 6px;
 }
+
 
 .wrapper {
 	width: 100%;
@@ -155,7 +182,18 @@
   width: fit-content;
   border-radius: 80px;
   margin-top: auto;
+  color: black;
+  text-decoration: none;
 }
+
+.banner__container-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
 
 .info {
   width: 100%;
