@@ -137,7 +137,7 @@
 
 .banner__container-logo {
   max-height: 20px;
-  width: min-content;
+  width: fit-content;
   margin-bottom: 20px;
 }
 
