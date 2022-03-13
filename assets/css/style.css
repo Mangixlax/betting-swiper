@@ -137,8 +137,9 @@
 
 .banner__container-logo {
   max-height: 20px;
-  width: fit-content;
   margin-bottom: 20px;
+  object-fit: contain;
+  object-position: left;
 }
 
 .banner__container-title {
