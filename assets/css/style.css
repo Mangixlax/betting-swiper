@@ -61,6 +61,12 @@
   flex-direction: column;
 }
 
+.wrapper-link {
+	display: block;
+  width: fit-content;
+  align-self: center;
+}
+
 .wrapper-title {
   font-family: Gilroy;
   font-style: normal;
